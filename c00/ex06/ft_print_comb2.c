@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/16 20:42:50 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 17:48:32 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 22:59:02 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,3 @@ void	ft_print_comb2(void)
 		x++;
 	}
 }
-/*
-int		main()
-{
-    ft_print_comb2();
-    return 0;
-}*/

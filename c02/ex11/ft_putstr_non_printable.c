@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 13:38:35 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/18 21:34:21 by yongmipa         ###   ########.fr       */
+/*   Updated: 2022/05/03 23:01:50 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,3 @@ void	ft_putstr_non_printable(char *str)
 		i++;
 	}
 }
-/*
-int main()
-{
-	char str[] = "\t\a\e\r\tCoucou\ntu vas bien ?";
-
-	ft_putstr_non_printable(str);
-	return 0;
-}*/

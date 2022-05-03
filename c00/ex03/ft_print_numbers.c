@@ -3,22 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yongmipa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 22:24:06 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/13 22:31:57 by yongmipa         ###   ########.fr       */
+/*   Updated: 2022/05/03 22:58:40 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-/*
-void ft_print_numbers(void);
-int	main(void)
-{
-	ft_print_numbers();
-
-	return (0);
-}*/
 
 void	ft_print_numbers(void)
 {

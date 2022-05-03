@@ -3,24 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yongmipa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 22:32:53 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/13 22:48:51 by yongmipa         ###   ########.fr       */
+/*   Updated: 2022/05/03 22:58:46 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-/*
-   void ft_is_negative(int n);
-   int	main(void)
-   {
-   ft_is_negative(2);
-   ft_is_negative(-2);
-   ft_is_negative(0);
-
-   return (0);
-   }*/
 
 void	ft_is_negative(int n)
 {

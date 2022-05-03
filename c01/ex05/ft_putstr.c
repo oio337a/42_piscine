@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 20:20:58 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 22:18:09 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:00:03 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-/*
-int main()
-{
-	char *str = "Hi";
-	ft_putstr(str);
-	return 0;
-}*/

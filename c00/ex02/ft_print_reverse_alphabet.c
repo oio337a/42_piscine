@@ -3,21 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yongmipa <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/13 22:08:26 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/13 22:22:37 by yongmipa         ###   ########.fr       */
+/*   Updated: 2022/05/03 22:58:33 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-/*
-void ft_print_reverse_alphabet(void);
-int	main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
-}*/
 
 void	ft_print_reverse_alphabet(void)
 {

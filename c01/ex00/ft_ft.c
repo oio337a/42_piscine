@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 18:35:57 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 18:42:00 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 22:59:46 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,3 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-/*
-int main()
-{
-	int n = 0;
-	int *nbr = &n;
-
-	ft_ft(nbr);
-	printf("%d", n);
-	return 0;
-}*/

@@ -6,13 +6,14 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 12:52:18 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 17:55:40 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 22:59:35 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-/* 첫번째 if 깊이가 길이랑 같다면 arr 다 채웠으니 출력 후 리턴(재귀 빠져나오기)
- while 깊이 1씩 늘리면서 재귀 진입
+/* 
+	첫번째 if 깊이가 길이랑 같다면 arr 다 채웠으니 출력 후 리턴(재귀 빠져나오기)
+	while 깊이 1씩 늘리면서 재귀 진입
 */
 void	jaegui(int prev, char *arr, int depth, int length)
 {
@@ -61,36 +62,3 @@ void	ft_print_combn(int n)
 	}
 	last(i);
 }
-
-/*
-{
-	if (depth == length)
-	{
-		write(1, arr, length);
-		if (prev == 10 - length + depth)
-		{
-			return ;
-		}
-		write(1, ", ", 2);
-		return ;
-	}
-	while (prev <= 9)
-	{
-		arr[depth] = prev + '0';
-		jaequi(prev + 1, arr, depth + 1, length);
-		prev++;
-	}
-}
-
-void	ft_print_combn(int n)
-{
-	char	arr[10];
-
-	jaequi(0, arr, 0, n);
-}
-
-int main()
-{
-    ft_print_combn(9);
-	return 0;
-}*/

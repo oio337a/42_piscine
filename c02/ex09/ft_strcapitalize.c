@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 12:38:04 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/18 13:11:08 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:01:42 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,3 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (str);
 }
-/*
-int main()
-{
-	char str[] = "salut, COMMENT tu vas ? 42mots quAranTe-deux; cinquante+et+un";
-	ft_strcapitalize(str);
-	printf("%s", str);
-	return 0;
-}*/

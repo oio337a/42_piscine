@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 11:12:57 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/18 11:25:20 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:01:22 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,17 +23,3 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
-/*
-int main()
-{
-	char *str1 = "123123";
-	char *str2 = "AAaZZ";
-	char *str3 = "aaaA";
-	char *str4 = "";
-
-	printf("%d", ft_str_is_uppercase(str1));
-	printf("%d", ft_str_is_uppercase(str2));
-	printf("%d", ft_str_is_uppercase(str3));
-	printf("%d", ft_str_is_uppercase(str4));
-	return 0;
-}*/

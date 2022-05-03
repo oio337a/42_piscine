@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 20:29:33 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 22:18:27 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:00:07 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,3 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-
-/*
-int main()
-{
-	char *str = "asdf";
-	printf("%d", ft_strlen(str));
-	return 0;
-}*/

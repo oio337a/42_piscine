@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/16 22:23:48 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 17:48:49 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 22:59:08 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,16 +44,3 @@ void	ft_putnbr(int nb)
 	}
 	ft_cal(nb);
 }
-/*
-int		main()
-{
-	ft_putnbr(123);
-	write(1, "\n", 1);
-	ft_putnbr(-2147483648);
-	write(1, "\n", 1);
-	ft_putnbr(-1);
-	write(1, "\n", 1);
-	ft_putnbr(2147483647);
-	write(1, "\n", 1);
-	ft_putnbr(0);
-}*/

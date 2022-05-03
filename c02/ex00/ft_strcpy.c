@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 22:25:55 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/17 22:37:52 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:00:50 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
-int main()
-{
-	char dest[20] = "";
-	char *src = "asdf";
-
-	ft_strcpy(dest, src);
-	printf("%s", dest);
-	return 0;
-}*/

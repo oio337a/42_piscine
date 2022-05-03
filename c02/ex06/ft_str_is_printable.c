@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 11:16:24 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/04/18 12:06:17 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 23:01:27 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,3 @@ int	ft_str_is_printable(char *str)
 	else
 		return (0);
 }
-/*
-int main()
-{
-	char *str1 = "aa\tbb";
-	char *str2 = "AA\nZZ";
-	char *str3 = "aaaAzzz";
-	char *str4 = "";
-
-	printf("%d", ft_str_is_printable(str1));
-	printf("%d", ft_str_is_printable(str2));
-	printf("%d", ft_str_is_printable(str3));
-	printf("%d", ft_str_is_printable(str4));
-	return 0;
-}
-*/
