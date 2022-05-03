@@ -6,7 +6,7 @@
 /*   By: yongmipa <yongmipa@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 11:43:15 by yongmipa          #+#    #+#             */
-/*   Updated: 2022/05/02 12:20:12 by yongmipa         ###   ########seoul.kr  */
+/*   Updated: 2022/05/03 17:19:45 by yongmipa         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ int	ft_is_sort(int *tab, int length, int (*f)(int, int))
 	int	j;
 
 	i = 0;
-	j = 0;
 	while (i < length)
 	{
 		j = i + 1;
